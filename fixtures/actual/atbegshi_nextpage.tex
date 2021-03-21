@@ -1,0 +1,9 @@
+\documentclass{article}
+%\usepackage{pxatbegshi} <== platex-tools/issues/15
+\usepackage{atbegshi}\AtBeginShipoutInit
+\usepackage{bxjalipsum,xcolor}
+% from the second page, "ほーげー" should appear!!!
+\AtBeginShipout{\smash{\color{red}\huge\gtfamily ほーげー}}
+\begin{document}
+\jalipsum[1-20]{wagahai}
+\end{document}
