@@ -1,4 +1,4 @@
-rm -vrf tmp/
+rm -vrf tmp/pdf tmp/actual tmp/expected tmp/result_diff_images tmp/report.html
 mkdir -vp tmp/pdf
 mkdir -vp tmp/actual
 mkdir -vp tmp/expected
